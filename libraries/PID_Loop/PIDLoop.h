@@ -1,5 +1,5 @@
-#ifndef PID_Loop_h
-#define PID_Loop_h
+#ifndef PIDLoop_h
+#define PIDLoop_h
 
 #include <Arduino.h>
 #include <digitalWriteFast.h>
