@@ -4,7 +4,7 @@
 #define HIGHRANGE 2000 //High range for driving robot
 
 bool PIDLoop::Configure() { //Set up PID Loop
-  fastPID.configure(KP, KI, KD, HZ, BITS, true);
+  fastPID.configure(KP, KI, KD, HZ, BITS, false);
   fastPID.setOutputRange(LOWRANGE, HIGHRANGE); //Setup to accurately drive robot
 }
 
